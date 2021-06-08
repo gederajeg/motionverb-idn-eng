@@ -1,5 +1,5 @@
 ---
-title: "R Notebook for *Quantitative Distribution of English and Indonesian Motion Verbs and Its Typological Implications*"
+title: "R Notebook for *Quantitative Distribution of English and Indonesian Motion Verbs and Its Typological Implications: A case study with the English and Indonesian versions of the* Twilight *novel*"
 author: '*by* [Gede Primahadi Wijaya RAJEG](https://udayananetworking.unud.ac.id/lecturer/880-gede-primahadi-wijaya-rajeg) <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>^[Universitas Udayana, Bali, Indonesia] & Utei Charaleghy PAMPHILA^[SIT Study Abroad Indonesia]'
 output: 
   html_notebook:
@@ -29,7 +29,7 @@ library(RColorBrewer) # for the plotting
 
 # Load the frequency list data
 
-Here are codes to read in the frequency list data for the <span style="font-variant:small-caps;">manner</span> and <span style="font-variant:small-caps;">path</span> Verbs in the English and Indonesian versions of the novel [*Twilight*](https://en.wikipedia.org/wiki/Twilight_(Meyer_novel)). Readers need to install the [tidyverse](https://www.tidyverse.org) suit of R packages as the codes heavily use functionality from this package, in addition to the [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html) package used in the visualisation codes.
+Below are the codes to read in the frequency list data for the <span style="font-variant:small-caps;">manner</span> and <span style="font-variant:small-caps;">path</span> Verbs in the English and Indonesian versions of the novel [*Twilight*](https://en.wikipedia.org/wiki/Twilight_(Meyer_novel)). Readers need to install the [tidyverse](https://www.tidyverse.org) suit of R packages as the codes heavily use functionality from this package, in addition to the [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html) package used in the visualisation codes.
 
 ```{r read-in-data, message = FALSE}
 # Read in the manner verbs data in English and Indonesian
